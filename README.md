@@ -4,13 +4,37 @@
 
 🚀 *Een moderne full-stack webapplicatie voor het visualiseren van de Sustainable Development Goals*
 
----
+<br/>
 
+<!-- HERO BANNER -->
+<img src="https://user-images.githubusercontent.com/placeholder/sdg-banner.png" width="100%" />
+
+<br/>
+
+<!-- BADGES -->
 ![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge)
 ![TypeScript](https://img.shields.io/badge/TypeScript-blue?style=for-the-badge)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge)
+
+<br/>
+
+<!-- LIVE DEMO BUTTON -->
+<a href="https://your-live-demo-link.com">
+  <img src="https://img.shields.io/badge/🚀 Live Demo-Click Here-00C896?style=for-the-badge" />
+</a>
+
+</div>
+
+---
+
+## 🎬 PROJECT PREVIEW
+
+<div align="center">
+
+<!-- GIF DEMO -->
+<img src="https://media.giphy.com/media/your-demo-gif/giphy.gif" width="85%" />
 
 </div>
 
@@ -18,108 +42,113 @@
 
 ## 🌟 OVER HET PROJECT
 
-```diff
-+ SDG Dashboard brengt data tot leven met interactieve visuals
-+ gebouwd met moderne webtechnologieën
-+ focus op clean UI + real-world data structuur
+SDG Dashboard brengt data tot leven met interactieve visuals en een moderne UI.
 
 💡 Dit project laat de 17 SDG’s zien met:
 
-mooie dashboards 📊
-interactieve grafieken 📈
-detailpagina’s 🔎
-snelle performance ⚡
-⚡ FEATURES
+- 📊 Interactieve dashboards  
+- 📈 Dynamische grafieken  
+- 🔎 Detailpagina’s per SDG  
+- ⚡ Snelle performance  
+- 🎨 Clean modern UI design  
 
-🌍 Alle 17 SDG’s overzichtelijk
-📊 Interactieve charts (Chart.js)
-🔎 Detail views met data insights
-🎨 Responsive & modern UI
-⚡ Supersnelle Next.js performance
-🧠 Type-safe code (TypeScript)
-🗄️ Database integratie (Prisma + MySQL)
-📦 Schaalbare architectuur
+---
 
-🛠️ TECH STACK
-Frontend:
-- Next.js 14
-- React
-- TypeScript
-- Tailwind CSS
+## ⚡ FEATURES
 
-Backend:
-- Prisma ORM
-- MySQL
-- Next.js API routes
+- 🌍 Alle 17 SDG’s overzichtelijk  
+- 📊 Chart.js visualisaties  
+- 🔎 Data-driven detail views  
+- 🎨 Responsive design  
+- ⚡ Next.js performance optimization  
+- 🧠 Type-safe development  
+- 🗄️ Prisma + MySQL database  
+- 📦 Clean scalable architecture  
 
-Data:
-- Chart.js
-🚀 INSTALLATIE
-# 1. Clone repo
+---
+
+## 🛠️ TECH STACK
+
+**Frontend**
+- Next.js 14  
+- React  
+- TypeScript  
+- Tailwind CSS  
+
+**Backend**
+- Prisma ORM  
+- MySQL  
+- Next.js API routes  
+
+**Visualization**
+- Chart.js  
+
+---
+
+## 🚀 INSTALLATIE
+
+```bash
 git clone https://github.com/TugcheSezr/SDG-Dashboard-Website.git
 
-# 2. Ga naar project
 cd SDG-Dashboard-Website
 
-# 3. Install dependencies
 npm install
 
-# 4. Environment setup
 cp .env.sample .env
 
-# 5. Database setup
 npm run db:generate
 npm run db:push
 npm run db:seed
 
-# 6. Start project
 npm run dev
-
 🌐 Open:
 
 http://localhost:3000
 🧠 PROJECT STRUCTUUR
-📁 app/          → Pages & routing
-📁 components/   → UI components
-📁 lib/          → Helpers & utilities
-📁 prisma/       → Database schema
-📁 data/         → SDG dataset
-📁 public/       → Assets
+app/         → Routing & pages
+components/  → UI components
+lib/         → Helpers
+prisma/      → Database schema
+data/        → SDG dataset
+public/      → Assets
 ⚙️ SCRIPTS
-npm run dev          → start dev server
-npm run build        → production build
-npm run start        → production run
-npm run lint         → code check
+npm run dev          # dev server
+npm run build        # production build
+npm run start        # production run
+npm run lint         # lint check
 
-npm run db:studio    → database UI
-npm run db:generate  → prisma client
-npm run db:push      → schema push
-npm run db:seed      → sample data
-📈 WAT DIT PROJECT LAAT ZIEN
-- Full-stack development skills
-- API & database design
-- Component-based architecture
-- Data visualization
-- Clean code practices
-- Real-world project structure
-🚀 TOEKOMSTIGE UPGRADES
-🔐 Login / authentication
+npm run db:studio    # Prisma UI
+npm run db:generate  # generate client
+npm run db:push      # push schema
+npm run db:seed      # seed data
+📈 WHAT THIS PROJECT SHOWS
+Full-stack development
+API design & database modeling
+Component architecture
+Data visualization skills
+Clean code practices
+Real-world project structure thinking
+🚀 FUTURE UPGRADES
+🔐 Authentication system
 🌐 Multi-language support
 📊 Advanced analytics dashboard
 📤 Export (PDF / CSV)
 🚀 Deployment (Vercel / Docker)
 👩‍💻 DEVELOPER
 <div align="center">
+
 💫 TugcheSezr
 
-🌱 Always learning. Always building. Always improving.
+🌱 Always learning. Always building. Always leveling up.
 
 </div>
 💬 NOTE
-! Dit project is onderdeel van mijn learning journey als developer
-! Feedback en ideeën zijn altijd welkom
+
+⚠️ This project is part of my learning journey
+💡 Feedback is always welcome
+
 <div align="center">
 
-🔥 If you like this project, feel free to star it! ⭐
+🔥 If you like this project, don’t forget to ⭐ star it!
 
 </div> ```
