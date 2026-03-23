@@ -1,52 +1,71 @@
-# 🌍✨ SDG Dashboard - Jouw Project ✨🌍
+<div align="center">
+
+# 🌍✨ SDG DASHBOARD ✨🌍
 
 > Een interactieve webapplicatie voor het volgen en visualiseren van de Duurzame Ontwikkelingsdoelen (SDGs).  
 > In dit project leer je stap voor stap hoe je een moderne full-stack webapplicatie bouwt met professionele tools en technieken.
+
+</div>
+
+---
+
+<div align="center">
+
+![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-blue?style=for-the-badge&logo=typescript)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql)
+
+</div>
 
 ---
 
 ## 🎯 Wat ga je leren?
 
-Dit project is ontworpen om je kennis te laten maken met moderne webdevelopment.
+✨ **Frontend Development**
+- Next.js 14: Modern React framework  
+- React: Component-based development, state & hooks  
+- TypeScript: Type-veilige code schrijven  
+- Tailwind CSS: Snel, responsive & stijlvol  
 
-### 🖥️ Frontend Development
-- Next.js 14: Modern React framework
-- React: Component-based development, state en hooks
-- TypeScript: Type-veilige code schrijven
-- Tailwind CSS: Snel en efficiënt styling
+⚙️ **Backend & Database**
+- Prisma ORM: Type-safe database queries  
+- MySQL: Relationele database  
+- API Development: RESTful endpoints  
+- Zod: Input validatie  
 
-### ⚙️ Backend & Database
-- Prisma ORM: Type-safe database queries
-- MySQL: Relationele database
-- API Development: RESTful endpoints bouwen
-- Data validatie: Zod voor input validatie
-
-### 📊 Data Visualisatie
-- Chart.js: Interactieve grafieken
-- Data processing: Filteren, trends en aggregaties
+📊 **Data Visualisatie**
+- Chart.js: Interactieve grafieken  
+- Data processing: Filteren, trends & aggregaties  
 
 ---
 
 ## 🚀 Project opstarten
 
-### 1. Dependencies installeren
+<div align="center">
+
 ```bash
+# Dependencies installeren
 npm install
 
-2. Environment bestand maken
+# Environment bestand maken
 cp .env.example .env
 
-3. Database initialiseren
+# Database initialiseren
 npm run db:generate
 npm run db:push
 npm run db:seed
 
-4. Development server starten
+# Development server starten
 npm run dev
 
-🌐 Open: http://localhost:3000
+🌐 Open in browser: http://localhost:3000
+
+</div>
 
 📁 Projectstructuur
+
 template/
 ├── app/
 │   ├── api/
@@ -54,100 +73,53 @@ template/
 │   ├── sdg/[id]/
 │   ├── layout.tsx
 │   └── globals.css
-│
 ├── components/
 │   ├── ui/
 │   └── charts/
-│
 ├── lib/
 │   ├── prisma.ts
 │   ├── types.ts
 │   └── data.ts
-│
 ├── prisma/
 │   ├── schema.prisma
 │   └── seed.ts
-│
 └── data/
     └── sdg-info.json
 
 🎓 Leertraject (6 weken)
-
-📌 Week 1: Basis begrijpen
-Codebase verkennen
-Next.js routing begrijpen
-React componenten leren
-Eerste component bouwen (Button)
-
-📌 Week 2: UI componenten
-Form, display en interactieve componenten bouwen
-Props en TypeScript gebruiken
-Responsive design toepassen
-
-📌 Week 3: Data visualisatie
-Chart.js leren gebruiken
-Line, bar en pie charts maken
-Data structureren
-
-📌 Week 4: Pagina’s bouwen
-Overview pagina met alle SDGs
-Detailpagina per SDG
-Layout en structuur verbeteren
-
-📌 Week 5: Data & API’s
-Prisma queries gebruiken
-API endpoints bouwen
-Data filtering met Zod
-📌 Week 6: Afwerking
-Charts integreren
-Filters toevoegen
-Bug fixes en styling verbeteren
+<div align="center">
+Week	Focus
+1	Basis begrijpen & eerste component bouwen (Button)
+2	UI componenten bouwen (Form, Display, Interactief)
+3	Data visualisatie (Chart.js)
+4	Pagina’s bouwen (Overview + Detail)
+5	Data & API’s integreren
+6	Afwerking: Charts, Filters, Styling & Bug fixes
+</div>
 
 🗺️ Waar begin je?
-
-🔍 Stap 1: Voorbeelden bekijken
-Card component
-BarChart component
-Header component
-
-📚 Stap 2: README’s lezen
-components/ui/README.md
-components/charts/README.md
-app/overview/README.md
-app/sdg/[id]/README.md
-app/api/README.md
-
-🧱 Stap 3: Klein beginnen
-Start met Button component
-Test in browser
-Breid stap voor stap uit
+Voorbeelden bekijken: Card.tsx, BarChart.tsx, Header.tsx
+README’s lezen: components/ui/README.md, components/charts/README.md, app/overview/README.md, app/sdg/[id]/README.md, app/api/README.md
+Klein beginnen: Start met één component, test, bouw verder
 
 💡 Belangrijke concepten
 
 ⚡ Next.js App Router
-Server components standaard
-Client components met 'use client'
-Dynamic routes met [id]
+Server components: standaard
+Client components: 'use client'
+Dynamic routes: [id]
 
-⚛️ React hooks
-useState: state beheren
-useEffect: API calls
-useMemo: performance optimalisatie
+⚛️ React Hooks
+useState, useEffect, useMemo
 
 🧠 TypeScript
-Interfaces voor props
-Types voor data
-Compile-time foutdetectie
+Interfaces voor props, types voor data
 
 🗄️ Prisma
-Schema voor database structuur
-Type-safe queries
-Migrations voor updates
+Schema, type-safe queries, migrations
 
 🎨 Tailwind CSS
-Utility-first styling
-Responsive design (md:, lg:)
-Dark mode ondersteuning
+Utility-first styling, responsive (md:, lg:), dark mode
 
 🛠️ Nuttige commando’s
 
@@ -164,36 +136,36 @@ npm run db:push
 npm run db:seed
 
 🐛 Problemen oplossen
-Prisma errors
-npm run db:generate
-Project reset
+Prisma errors: npm run db:generate
+Project reset:
 docker-compose down -v
 docker-compose up -d
 npm run db:push
 npm run db:seed
 
 📚 Externe documentatie
-Next.js docs
-React docs
-Tailwind CSS docs
-TypeScript handbook
-Prisma docs
-Chart.js docs
-Zod docs
+Next.js
+React
+Tailwind CSS
+TypeScript Handbook
+Prisma
+Chart.js
+Zod
 
 🎯 Tips voor succes
 Begin klein
 Gebruik voorbeelden
 Test vaak
 Lees error messages
-Google problemen
+Google is je vriend
 Gebruik TypeScript warnings
 Commit regelmatig
+<div align="center">
 
 🎉 Klaar om te starten?
-Start project met installatie stappen
-Open components/ui/README.md
-Bouw je eerste component
-Werk stap voor stap verder
 
-Veel succes 🚀
+Start project met installatie stappen, open components/ui/README.md, bouw je eerste component en werk stap voor stap verder 🚀
+
+💫 Veel succes!
+
+</div> ```
